@@ -2,13 +2,16 @@ import React from 'react';
 
 import GlobaStyle from './styles/global';
 
-import SignIn from './pages/sign-in';
+// import SignIn from './pages/SignIn';
+import SignUp from './pages/SignUp';
 
-const App: React.FC = () => (
+const App: React.FC = function () {
+  return (
     <>
-        <SignIn />
-        <GlobaStyle />
+      <SignUp />
+      <GlobaStyle />
     </>
-);
+  );
+};
 
 export default App;
