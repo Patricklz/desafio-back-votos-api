@@ -1,16 +1,16 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
 import GlobaStyle from './styles/global';
 
-// import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
+import Rotas from './routes';
 
 const App: React.FC = function () {
   return (
-    <>
-      <SignUp />
+    <BrowserRouter>
+      <Rotas />
       <GlobaStyle />
-    </>
+    </BrowserRouter>
   );
 };
 
