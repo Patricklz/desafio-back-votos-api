@@ -55,7 +55,7 @@ const Dashboards: React.FC = () => {
 
 
   return (
-    <Container>
+    <Container className='containerLayout'>
 
   <ResponsiveGridLayout className="layout" cols={columns} layouts={layout}>
       <Table key="a" striped bordered hover variant="light" >
